@@ -1,0 +1,121 @@
+{
+  "menu": [
+    {
+      "name": "Dashboards",
+      "icon": "menu-icon tf-icons ti ti-smart-home",
+      "slug": "dashboard",
+      "badge": [
+        "primary",
+        "1"
+      ],
+      "submenu": [
+        {
+          "url": "/",
+          "name": "Analytics",
+          "slug": "dashboard-analytics"
+        }
+      ]
+    },
+
+    {
+      "menuHeader": "Apps & Pages"
+    },
+
+    {
+      "name": "users",
+      "icon": "menu-icon tf-icons ti ti-users",
+      "slug": "app-user",
+      "permissions": ["view users"],
+
+      "submenu": [
+        {
+          "url": "users",
+          "name": "List",
+          "slug": "app-user-list"
+        }
+
+      ]
+    },
+
+
+
+    {
+      "name": "Roles & Permissions",
+      "icon": "menu-icon tf-icons ti ti-settings",
+      "slug": "app-access",
+     "permissions": ["view roles"],
+      "submenu": [
+        {
+          "url": "roles",
+          "name": "Roles",
+          "slug": "app-access-roles"
+        },
+        {
+          "url": "permissions",
+          "name": "Permission",
+          "slug": "app-access-permission"
+        }
+      ]
+    },
+
+
+
+    {
+      "name": "tasks",
+      "icon": "menu-icon tf-icons ti ti-settings",
+      "slug": "app-access",
+     "permissions": ["view tasks"],
+      "submenu": [
+        {
+          "url": "tasks",
+          "name": "tasks",
+          "slug": "app-access-roles"
+        }
+
+      ]
+    },
+
+    {
+      "name": "Create Task",
+      "icon": "menu-icon tf-icons ti ti-settings",
+      "slug": "app-access",
+     "permissions": ["create Task"],
+      "submenu": [
+        {
+          "url": "tasks/create",
+          "name": "create Task",
+          "slug": "app-access-roles"
+        }
+
+      ]
+    },
+
+
+
+    {
+      "name": "Statistic",
+      "icon": "menu-icon tf-icons ti ti-settings",
+      "slug": "app-access",
+     "permissions": ["view statistics"],
+      "submenu": [
+        {
+          "url": "statistics",
+          "name": "statistics",
+          "slug": "app-access-roles"
+        }
+
+      ]
+    },
+
+
+
+
+
+
+    {
+      "menuHeader": ""
+    }
+
+
+  ]
+}

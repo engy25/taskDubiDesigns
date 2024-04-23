@@ -1,0 +1,23 @@
+{
+  "Offers": "عروض",
+  "coupons": "كوبونات",
+  "Deliveries": "الطيارين",
+  "Countries": "الدول",
+  "Cities": "المدن",
+  "Districts": "المناطق",
+  "SubSections": "الأقسام الفرعية",
+  "Stores": "متاجر",
+
+  "Items": "المنتجات",
+
+  "Roles & Permissions":"الادوار والاذونات",
+  "assignedto":"مخصص ل",
+  "created_date":"تاريخ الإنشاء",
+  "guard":"اسم الجارد",
+  "Brands":"علامه تجاريه",
+  "Colors":"الالوان",
+  "Users":"المستخدمين",
+  "Pricings":"التسعيره",
+  "Support":"الدعم",
+  "Apps & Pages":"التطبيقات والصفحات"
+}
